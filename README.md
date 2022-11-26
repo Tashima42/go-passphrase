@@ -43,4 +43,10 @@ Flags:
 ```
 
 ## How to install
-Download the latest executable for your system in the [releases](https://github.com/Tashima42/go-passphrase/releases) page
+Download the latest executable for your system and run.
+* [MacOS Intel](https://github.com/Tashima42/go-passphrase/releases/download/v0.0.1-alpha/go-passphrase_darwin-amd64)
+* [MacOS Apple Silicon](https://github.com/Tashima42/go-passphrase/releases/download/v0.0.1-alpha/go-passphrase_darwin-arm64)
+* [Windows x86](https://github.com/Tashima42/go-passphrase/releases/download/v0.0.1-alpha/go-passphrase_windows-amd64)
+* [Windows ARM](https://github.com/Tashima42/go-passphrase/releases/download/v0.0.1-alpha/go-passphrase_windows-arm64)
+* [Linux x86](https://github.com/Tashima42/go-passphrase/releases/download/v0.0.1-alpha/go-passphrase_linux-amd64)
+* [Linux ARM](https://github.com/Tashima42/go-passphrase/releases/download/v0.0.1-alpha/go-passphrase_linux-arm64)
