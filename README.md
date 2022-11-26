@@ -23,6 +23,11 @@ Examples:
     $ go-passphrase -f
     > geiger sadness founder
     ```
+1. Generate a captalized passphrase with a number at the end of one of the words:
+    ```bash
+    $ go-passphrase -c -n
+    > Create-Deluge1-Grandma
+    ```
 Usage:
 ```
 Usage:
@@ -31,6 +36,7 @@ Usage:
 Flags:
   -c, --capitalize         Capitalize the first letter of the words
   -f, --half               Cut in half the words
+  -n, --number             Include a number at the end of one of the words
   -h, --help               help for go-passphrase
   -s, --separator string   Character separating the words (default "-")
   -w, --words int          Number of words in the passphrase (default 3)
