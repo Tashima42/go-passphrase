@@ -16,7 +16,7 @@ var (
 
 func InitCommand() *cobra.Command {
 	rootCmd := &cobra.Command{
-		Use:   "passphrase",
+		Use:   "go-passphrase",
 		Short: "Passphrase is a memorable passwords generator",
 		Long: `Passphrases are passwords who are both easier to remember and more secure
                 This tool is inspired by https://www.useapassphrase.com
