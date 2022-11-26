@@ -1,6 +1,8 @@
 package passphrase
 
-var WordsList = [7776]string{
+const WordsListLength = 7776
+
+var WordsList = [WordsListLength]string{
 	"abacus",
 	"abdomen",
 	"abdominal",
