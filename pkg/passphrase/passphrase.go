@@ -23,7 +23,12 @@ func (pg *PassphraseGenerator) Generate() string {
 		if err != nil {
 			panic(fmt.Sprintf("Failed to generate random integer: %s", err))
 		}
-		word += WordsList[randInt]
+		selectedWord := WordsList[randInt]
+
+		if pg.HalfWords {
+			selectedWord = pg.HalfWord(selectedWord)
+		}
+		word += selectedWord
 
 		if i != pg.Words-1 {
 			word += pg.Separator
